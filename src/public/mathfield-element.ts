@@ -627,7 +627,7 @@ export class MathfieldElement extends HTMLElement implements Mathfield {
   }
 
   /** @internal */
-  private static _fontsDirectory: string | null = './fonts';
+  private static _fontsDirectory: string | null = '/static/mathlive-0.104.0/fonts';
 
   /**
    * A URL fragment pointing to the directory containing the optional
@@ -656,7 +656,7 @@ export class MathfieldElement extends HTMLElement implements Mathfield {
   }
 
   /** @internal */
-  private static _soundsDirectory: string | null = './sounds';
+  private static _soundsDirectory: string | null = '/static/mathlive-0.104.0/sounds';
 
   /**
    * When a key on the virtual keyboard is pressed, produce a short haptic

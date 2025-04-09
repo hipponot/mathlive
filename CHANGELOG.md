@@ -11,6 +11,12 @@
   popover, the suggestion popover would be inserted in the wrong mathfield.
 - **#2584** In some cases, a menu item could get inadvertently selected when
   when brining up the menu.
+- **#2673** When using the CJS version of the library, the height of the virtual
+  keyboard was not correctly calculated.
+- **#2666** In some cases, the state of the Undo/Redo buttons could get out of
+  sync with the state of the mathfield.
+- **#2667** The edit toolbar was not displayed in the alphabetic keyboard
+  layout.
 
 ### Improvements
 
